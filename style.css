@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@100;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+a:hover{
+    color: blue;
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding-left: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;   
+}
+li{
+   margin: 0 15px;
+   line-height: 1.65em;
+   width: 100%;
+   font-family: 'Playfair Display', serif;
+   
+}
+.asks{
+    background-color: orange;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.65em;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px; 
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Goal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Goal h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 1.6em;
+    width: 630px;
+    margin-bottom: 10px;
+    font-stretch: expanded;
+    margin-top: 20px;
+    font: bolder;
+    font-stretch: extra-condensed;
+}
+.go{
+    height: 8px;
+    width: 100px;
+    background-color: powderblue;
+    margin: 15px; 
+    display: block;
+}
+.yeh{
+    margin-left: 30px;
+}
+.Goal p{
+    padding-top: 30px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image img{
+      width: 100%;
+    margin-top: 50px;
+}
+.words{
+    margin-top: 20px;
+    line-height: 1.6em;
+}
+.title{
+   align-self: start;
+   line-height: 1.62em ;
+}
+.title h2{
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.title .list{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+}
+.home{
+    align-self: start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.son img{
+    width: 303px;
+    left: 0;
+   
+   border: 1px solid black;
+}
+.son{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    border: 1px solid black;
+}
+.son p{
+    width: 300px;
+    padding: 30px;
+}
+.head{
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+/* .lady{
+    font: bold;
+}
+*/
+.tip{
+    background-color: white;
+   
+    top: 30px;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dave{
+    background-color: aqua;
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    margin: 5px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section6{
+    background-color: rgb(52, 52, 163);
+    height: 60vh;
+    padding-top: 40px;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+}
+.line{
+    margin-left: 40px;
+}       
+.email{
+    display:block;
+    margin-top:30px ;
+    width: 747px;
+}
+.field{ 
+    width: 747px;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 8px;
+}
+.of{
+    width: 747px;
+    display: block;
+    margin-bottom: 15px;
+}
+button{
+    width: 747px;
+    height: 40px;
+   background-color: rgb(47, 47, 138);
+} 
+.container2{
+    display: flex;
+    width: 70%;
+    margin: 0% auto;
+    margin-top: 90px;
+}
+.container2 .post{
+    margin-left: 80px;
+}
+.post h2{
+    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+}
+.post p{
+    padding: 3px;
+}
+.section7{
+    background-color: black;
+    color: floralwhite;
+    height: 30vh;
+    
+}
+.container3{
+    width: 70%;
+    margin: 0% auto;
+    display: flex;
+}
+.container3 div{
+    padding-top: 70px;
+    margin: 0% 20px;
+    width: 100%;
+}
+.container3 p{
+    width: 200px;
+}
+.container3 .year{
+    background-color: lightblue;
+    display: inline-block;
+   height: 50%;
+   width: 60px;
+   align-self: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.container iframe{
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+.section8{
+    background-color: lightblue;
+    height: 60vh;
+}
+.contact h1{
+    margin-bottom: 10px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: xx-large;
+}
+.contact .have{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 2px;
+    color: blue;
+}
+.contact .want{
+    width: 300px;
+    font-size: large;
+    margin-left: -20px;
+}
+.general input{
+    display: block;
+    grid-template-columns: repeat(3 1fr);
+    margin-bottom: 22px;
+}
+.general{
+    margin-top: 50px;
+    display: flex;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.checks{
+    background-color: lightblue;
+}
